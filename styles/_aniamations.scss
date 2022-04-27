@@ -1,0 +1,11 @@
+.animate-before { // Estado inicial
+    transform: translateY(40px); // Para baixo
+    opacity: 0; //  Invisível
+    pointer-events: none; // Não vai ter como clicar
+  }
+  
+  .animate-after { // Vai subir
+    transform: translateY(-40px);
+    opacity: 0;
+    pointer-events: none;
+  }
